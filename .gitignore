@@ -1,0 +1,68 @@
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/**/out/
+
+.run/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/**/bin/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Minecraft Modding ###
+run/
+!**/src/**/run/
+**/src/generated/**/.cache/
+repo/
+!**/src/**/repo/
+
+### Decompiled research & temp tools ###
+autopsy/
+autopsy_cfr/
+autopsy_decompiled/
+temp_relics/
+cfr.jar
+scratch/
+
+### AI & Assistant files ###
+.agents/
+.gemini/
+*.ai
+GEMINI.md
+CLAUDE.md
+prompt_draft.md
+implementation_plan.md
+walkthrough.md
+
+### Temporary / Screenshot Mods in libs ###
+libs/Chunky*
+libs/DistantHorizons*
+libs/ImmediatelyFast*
+libs/c2me*
+libs/ferritecore*
+libs/relics_debugger*
+
+
